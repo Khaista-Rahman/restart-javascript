@@ -13,3 +13,8 @@ console.log(typeof isFollow);
 console.log(typeof contact);// null is the type of object remember it.
 console.log(typeof city);
 
+// symbol => unique
+// null => standalone value
+// bigInt => for high numbers
+
+
