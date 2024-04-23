@@ -15,8 +15,13 @@ accountCity = "khyberpukhtunkhawa";// this method is not fine but this is possib
 console.log(accountEmail);
 console.table([accountEmail , accountId , accountPassword, accountCity]);
 
+
+
 // perfer not use the var 
 // because this will be issue in block scope and funtional scope
+
+
+
 //{
 // in this brackets will be written anthing this will be scope
 // }
