@@ -10,13 +10,13 @@ let contact ;
 let cost = 7329857983n;
 let password = Symbol('4114');// this is also called uniqe ,
 
-// console.log(typeof Name);
-// console.log(typeof age);
-// console.log(typeof isFollow);
-// console.log(typeof address);
-// console.log(typeof contact);
-// console.log(typeof cost);
-// console.log(typeof password);
+console.log(typeof Name);
+console.log(typeof age);
+console.log(typeof isFollow);
+console.log(typeof address);
+console.log(typeof contact);
+console.log(typeof cost);
+console.log(typeof password);
 
 
 // refreance (non primitive)
@@ -45,3 +45,28 @@ const myfunction = function(){
 myfunction();
 console.log(typeof myfunction)
 // this is called function and also called object function .
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (primitive) , Heap (non-primitive)
+
+// stack (primitive)
+// if you want to change value of veriable so this will be give you a copy of that value not orignal .
+
+// Heap (non-primitive)
+// if you want to change value of veriable so this will be give you change in orignal value not copy .
+
+let myName = "khaista rahman";
+
+let yourName = myName;
+yourName="bakhti ur rahman";
+console.log(yourName);
+
+let obj = {
+  name:"khaista rhaman",
+  bankAccount: "732497"
+}
+let ourName = obj.name
+ourName="shahid zada";
+console.log(obj.name)
+console.log(ourName);
