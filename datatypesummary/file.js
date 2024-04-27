@@ -60,7 +60,7 @@ let myName = "khaista rahman";
 
 let yourName = myName;
 yourName="bakhti ur rahman";
-console.log(yourName);
+// console.log(yourName);
 
 let obj = {
   name:"khaista rhaman",
@@ -68,5 +68,6 @@ let obj = {
 }
 let ourName = obj.name
 ourName="shahid zada";
-console.log(obj.name)
-console.log(ourName);
+// console.log(obj.name)
+// console.log(ourName);
+console.log(`my name is ${obj.name} and my father name is bakhti ur rahman and my mamu name is ${ourName}`);
