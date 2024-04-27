@@ -18,3 +18,13 @@ console.log(sweetNames.split(" "))
 
 const language = new String("pushto");
 console.log(`my language is ${language}`);
+
+
+
+const myself = new String("my name is khaista rahman and my father name is bakhti ur rahman");
+let nowmymood = "happy";
+console.log(myself.toUpperCase());
+console.log(myself.toLowerCase());
+console.log(myself.slice(2 , 34));
+console.log(myself.trim());
+console.log(myself.split(" "))
