@@ -16,6 +16,11 @@ Names.shift();
 console.log(Names);
 // this will be deleted indexnumber from started.
 
+const num2 = new Array(1, 2, 3, 4, 5, 6, 7);
+num2.unshift("0");
+console.log(num2);
+// Note: this will be add index in array from started .
+
 
 const NamesArray = new Array("khaista", "papa", "shahid", "zain")
 NamesArray.pop();
@@ -36,4 +41,4 @@ console.log(num);
 
 const myarr = ["apple", "orange", "banana", "mango"];
 console.log(myarr);
-// this will be also work . bcs everyone use the way .
+// this will be also work . because everyone use the way .
