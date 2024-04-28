@@ -1,7 +1,7 @@
 const accountId = 12442;
 let accountEmail = "khaista3@gmail.com";
 var accountPassword = '7398';
-accountCity = "islamabad";
+let accountCity = "islamabad";
 let accountState;// this will be undefine .
 
 // let them to do changing
