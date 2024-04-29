@@ -49,3 +49,13 @@ user.greetingTwo = function(){
 console.log(user.greetingTwo());
 
 // so this is the basics code of object . hopely i will keep this code in my mind hehehehehehehehe okay enough hehehehe sorry.
+
+// if we want to close our object that no one change keys i mean names or emails that we apply special method we called him to freeze object.freeze
+
+Object.freeze(user);
+
+
+// after this method apply no one change your object . we will try.
+user.Name = "shahid zada";
+user.email = "shaiifwerhouirgh";
+ 
