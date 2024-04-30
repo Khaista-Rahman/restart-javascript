@@ -26,7 +26,7 @@ console.log(user["age"]);
 console.log(user.Name);
 // ofcourse this will be work .
 
-// according to hitesh. that some time in interve will ask that take a unique symbol and code that in object and console that but one condition the symbol will the typeof symbol.not a string.
+// // according to hitesh. that some time in interve will ask that take a unique symbol and code that in object and console that but one condition the symbol will the typeof symbol.not a string.
 
 console.log(user[mysymbol]);
 console.log(typeof user[mysymbol])
