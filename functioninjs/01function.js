@@ -67,3 +67,23 @@ function myfunction3(){
 }
 myfunction3()
 // here we learn about functions and how to inject the array or object in functions . 
+
+const myNewArray = [200 , 300 , 400 , 500];
+function returnTheArray(myArray){
+    return myArray[1];
+}
+console.log(returnTheArray(myNewArray));// the expacted result is 300;
+
+
+const myNewObject = {
+  userName: "khaista",
+  age: 21
+}
+
+function returnTheObject(myObject){
+  return `my name is ${myObject.userName}`
+}
+
+console.log(returnTheObject(myNewObject));
+
+// this how we learn about inject the object and array in function.
