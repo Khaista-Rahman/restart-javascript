@@ -13,6 +13,8 @@ user.userName = "shahid";
 user.welcomeMessage()
 console.log(this);// but this will be show in terminal empty curly brackets but if you this code in browser this will be show window with all properties what you want .
 
+// this keyword is only for object not for function .
+
 
 //+++++++++++++++++++++++++++++++ arrow function ++++++++++++++++++++++++++++++
 // acutally this function you can store in a veriable and if you think this is a shortcut of function .
@@ -39,3 +41,5 @@ one();
 // if you want in this function create a object . so this also possible.
 const addtwo = (num1 , num2) => ({Name: "khaista rahman"});
 console.log(addtwo(2,6)); 
+
+// So basically this is about arrow function and this keyword .
