@@ -36,9 +36,27 @@ let myobj = {
 }
 if (myobj.contact) {
   for (let u = 1; u <=10 ; u++) {
-    console.log(myobj)
+    // console.log(myobj)
     
   }
 } else {
-  console.log("phone number is not here")
+  // console.log("phone number is not here")
+}
+
+
+for (let i = 0; i <= 10; i++) {
+ if (i == 5) {
+  console.log("5 is the best number");
+  break;
+}
+console.log(i)
+}
+
+for (let i = 0; i <=10 ; i++) {
+  if (i == 4) {
+    console.log("4 is my best number")
+    continue
+  }
+  console.log(i)
+  
 }
