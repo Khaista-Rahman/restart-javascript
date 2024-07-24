@@ -46,17 +46,27 @@ if (myobj.contact) {
 
 for (let i = 0; i <= 10; i++) {
  if (i == 5) {
-  console.log("5 is the best number");
+  // console.log("5 is the best number");
   break;
 }
-console.log(i)
+// console.log(i)
 }
 
 for (let i = 0; i <=10 ; i++) {
   if (i == 4) {
-    console.log("4 is my best number")
+    // console.log("4 is my best number")
     continue
   }
-  console.log(i)
+  // console.log(i)
   
+}
+// ++++++++++++++++++++++++++++
+// while lOOp
+
+let myname = "khaista rahman"
+
+let i = 0
+while ( myname < 12) {
+  console.log(i)
+  i++
 }
